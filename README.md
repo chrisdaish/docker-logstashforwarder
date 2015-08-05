@@ -1,7 +1,7 @@
 Logstash Forwarder
 ==================
 
-Slim image (11Mb) of Logstash Forwarder 0.4.0 running under AlpineLinux 3.2.
+Slim image (11MB) of Logstash Forwarder 0.4.0 running under AlpineLinux 3.2.
 
 This image requires a self compiled binary, see https://github.com/chrisdaish/docker-alpine-go-compiler for instructions.
 
