@@ -11,5 +11,7 @@ How to use
 ```
 docker run  -v <configPath>/logstash-forwarder.conf:/etc/logstash-forwarder.conf:ro \
             -v <configPath/logstash.crt:/etc/logstash.crt:ro \
+            -v /var/log:/var/log:ro \
+            -v /etc/localtime:/etc/localtime:ro \
             chrisdaish/logstashforwarder
 ```
